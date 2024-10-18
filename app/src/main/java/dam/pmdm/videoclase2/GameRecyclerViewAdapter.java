@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import dam.pmdm.videoclase2.databinding.GameCardviewBinding;
+import android.view.View;
 
 public class GameRecyclerViewAdapter extends RecyclerView.Adapter<GameViewHolder> {
 
@@ -35,7 +36,7 @@ public class GameRecyclerViewAdapter extends RecyclerView.Adapter<GameViewHolder
         holder.bind(currentGame);
 
 //        Manejar el evento de clic
-        holder.itemView.setOnClickListener(view -> itemClicked(currentGame));
+        holder.itemView.setOnClickListener(view -> itemClicked(currentGame, view));
     }
 
     @Override
@@ -43,8 +44,9 @@ public class GameRecyclerViewAdapter extends RecyclerView.Adapter<GameViewHolder
         return games.size();
     }
 
-    private void itemClicked(GameData currentGame) {
-        ((MainActivity) context).gameClicked(currentGame);
+    private void itemClicked(GameData currentGame, View view) {
+        // Llama a la función gameClicked de MainActivity, pasando la vista
+        ((MainActivity) context).gameClicked(currentGame, view);
     }
 }
 

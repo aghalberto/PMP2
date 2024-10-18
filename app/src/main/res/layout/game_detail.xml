@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_launcher_background"/>
 
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Game Name"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:layout_marginTop="8dp" />
 
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Release Year"
-        android:textSize="16sp"
+        android:textSize="25sp"
         android:layout_marginTop="4dp" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Platforms"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:layout_marginTop="4dp" />
 
     <TextView
@@ -42,7 +42,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Game Description"
-        android:textSize="14sp"
-        android:layout_marginTop="4dp" />
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_margin="30dp"/>
 
 </LinearLayout>

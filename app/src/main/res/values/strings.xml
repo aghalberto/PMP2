@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Videoclase2</string>
+    <string name="lista_de_juegos">Lista de juegos</string>
+    <string name="detalles_del_juego">Detalles del Juego</string>
 </resources>
