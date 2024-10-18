@@ -11,17 +11,17 @@ import android.view.ViewGroup;
 
 import com.squareup.picasso.Picasso;
 
-import dam.pmdm.videoclase2.databinding.GameDetailBinding;
+import dam.pmdm.videoclase2.databinding.GameDetailFragmentBinding;
 
 public class GameDetailFragment extends Fragment {
 
-    private GameDetailBinding binding;
+    private GameDetailFragmentBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Inflar el layout para este fragmento
-        binding = GameDetailBinding.inflate(inflater, container, false);
+        binding = GameDetailFragmentBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 

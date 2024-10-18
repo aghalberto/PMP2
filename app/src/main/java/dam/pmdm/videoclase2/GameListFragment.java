@@ -13,13 +13,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import dam.pmdm.videoclase2.databinding.GameListBinding;
+import dam.pmdm.videoclase2.databinding.GameListFragmentBinding;
 
 import java.util.ArrayList;
 
 public class GameListFragment extends Fragment {
 
-    private GameListBinding binding; // Binding para el layout
+    private GameListFragmentBinding binding; // Binding para el layout
     private ArrayList<GameData> games; // Lista de juegos
     private GameRecyclerViewAdapter adapter; // Adaptador del RecyclerView
 
@@ -28,7 +28,7 @@ public class GameListFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         // Inflar el layout utilizando el binding
-        binding = GameListBinding.inflate(inflater, container, false);
+        binding = GameListFragmentBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
