@@ -21,6 +21,10 @@ Una aplicación Android que muestra una lista de videojuegos utilizando un `Recy
     
 ## Cpturas de Pantalla
 
+### Splash Screen
+
+![image](https://github.com/user-attachments/assets/3a41bce2-0ca0-466e-9c6f-91a8400850e7)
+
 ### Lista de juegos
 
 ![image](https://github.com/user-attachments/assets/4e9ba6e3-4843-4f30-a58d-fba2df2f18c9)
